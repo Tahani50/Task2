@@ -1,24 +1,24 @@
-# SwiftUI Name List App
+# SwiftUI Names List App
 
 ## Description
-This is a simple SwiftUI app that displays a list of names using an array and the List view. The list can be filtered to show only names that start with a specific letter, and users can sort the names alphabetically by tapping a button.
+This SwiftUI app displays a list of names using an array and the `List` view. Users can filter names based on a specific starting letter and sort them alphabetically.
 
 ## Features
-Displays a list of names.
-Filters names based on the first letter.
-Allows sorting names alphabetically.
+- Displays a list of names.
+- Filters names based on the first letter.
+- Sorts the filtered names alphabetically when a button is tapped.
 
 ## How It Works
-The app starts with a predefined list of names.
-Users can select a letter from a picker menu to filter names that start with that letter.
-A button allows users to toggle sorting the filtered list alphabetically.
-The list updates dynamically based on the selected filter and sorting option.
+1. The app initially loads a predefined list of names.
+2. The user can enter a letter in a `TextField`, and the list will update to show only names starting with that letter.
+3. A button allows sorting the filtered names alphabetically when tapped.
+4. Uses SwiftUI's `List`, `TextField`, and `Button` views along with state management (`@State`).
 
 ## Technologies Used
-Swift
-SwiftUI
+- Swift
+- SwiftUI
 
-## Installation
-Clone this repository.
-Open the project in Xcode.
-Run the app in an iOS Simulator or on a physical device.
+## How to Run
+1. Open the project in Xcode.
+2. Run the app on a simulator or a real device.
+3. Enter a letter to filter names and press the "Sort Names" button to sort them.
